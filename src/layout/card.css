@@ -1,0 +1,29 @@
+
+body {
+    background-color: antiquewhite;
+    color: white;
+    font-family: Calibri, sans-serif
+}
+
+.card {
+    background-color: rgb(62, 154, 235);
+    border: 3px solid rgb(62, 154, 235);
+    border-radius: 10px;
+    overflow: hidden;
+    font-size: 24px;
+    width: 350px;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.card .title {
+    padding: 15px 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.card .content {
+    background-color: #fff;
+    color: #000;
+    padding: 20px;
+}

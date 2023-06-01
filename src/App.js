@@ -1,23 +1,13 @@
-import logo from './logo.svg';
-import './App.css';
+import Card from "./layout/card";
+import Random from "./components/random";
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Card titulo="Desafio Aleatório">
+        <Random init={300} end={500} />
+      </Card>
     </div>
   );
 }
