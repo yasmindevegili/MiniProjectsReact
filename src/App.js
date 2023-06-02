@@ -1,7 +1,7 @@
 import Card from "./layout/card";
 import Random from "./components/random";
 import "./App.css";
-import Ass from "./components/family";
+import Contador from "./components/contador";
 
 function App() {
   return (
@@ -10,14 +10,8 @@ function App() {
         <Card titulo="Desafio Aleatório">
           <Random init={300} end={500} />
         </Card>
-        <Card titulo="Desafio Aleatório" color="#900">
-          <Random init={10} end={15} />
-        </Card>
-        <Card titulo="Desafio Aleatório" color="#080">
-          <Random init={1} end={100} />
-        </Card>
-        <Card titulo="Por" color="#000">
-          <Ass nome="Yasmin" sobrenome="Devegili"></Ass>
+        <Card titulo="Contador">
+          <Contador numeroInicial={10}></Contador>
         </Card>
       </div>
     </div>

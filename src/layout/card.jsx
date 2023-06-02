@@ -4,8 +4,8 @@ import './card.css';
 export default (props) => {
   
   const style = {
-    backgroundColor: props.color || '#511b85a8',
-    borderColor: props.color || '#511b85a8',
+    backgroundColor: props.color || '#6f86d6',
+    borderColor: props.color || '#6f86d6',
   }
 
   return (

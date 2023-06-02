@@ -1,0 +1,14 @@
+input {
+    font-size: 1.0rem;
+}
+
+button {
+    height: 30px;
+    width: 30px;
+    border: none;
+    border-radius: 50%;
+    background-color: #6f86d6;
+    color: #fff;
+    font-size: 1.4rem;
+    margin: 5px;
+}
